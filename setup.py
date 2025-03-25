@@ -11,7 +11,7 @@ with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='litereval',
-    version=versioneer.get_version(),
+    version='0.0.12',
     cmdclass=versioneer.get_cmdclass(),
 
     description="Wrapper around ast.literal_eval with new {foo='bar', key=None} dict syntax.",
